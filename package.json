@@ -1,6 +1,13 @@
 {
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node index.js",
+    "deploy": "vercel --prod"
+  },
   "dependencies": {
     "@vercel/blob": "^2.0.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "vercel": "^48.1.6"
   }
 }
