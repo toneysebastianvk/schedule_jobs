@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "start": "node index.js",
+    "start": "node src/index.js",
     "build": "echo 'Build triggered at ' $(date) && next build",
     "deploy": "vercel --prod"
   },
