@@ -61,8 +61,6 @@ app.get("/", async (_req, res) => {
   res.status(500).json({ messge:"working" });
 });
 
-export default app;
-
 /**
  * ✅ Start Express locally (ignored by Vercel)
  */
@@ -72,3 +70,5 @@ if (process.env.NODE_ENV !== "production") {
     console.log(`🚀 Server running at http://localhost:${PORT}`);
   });
 }
+
+export default app;
