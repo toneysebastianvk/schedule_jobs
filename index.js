@@ -57,6 +57,10 @@ app.delete("/delete", async (req, res) => {
   }
 });
 
+app.get("/", async (_req, res) => {
+  res.status(500).json({ messge:"working" });
+});
+
 export default app;
 
 /**
